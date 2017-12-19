@@ -1,26 +1,24 @@
 # -*- coding: utf-8 -*-
-"""`anarchytools` lives on `Github`_.
-
-.. _github: https://github.com/AnarchyTools/anarchy_sphinx
+"""
+.. _github: https://github.com/anfema/sphinx-theme-anfema
 
 """
 from setuptools import setup
-from anarchy_theme import __version__
 
 
 setup(
-    name='anarchy_sphinx',
-    version=__version__,
-    url='https://github.com/AnarchyTools/anarchy_sphinx',
+    name='sphinx-theme-anfema',
+    version='0.3.1',
+    url='https://github.com/anfema/sphinx-theme-anfema',
     license='BSD',
     author='Johannes Schriewer',
     author_email='hallo@dunkelstern.de',
-    description='AnarchyTools Theme and Swift support for Sphinx.',
+    description='anfema theme for Sphinx.',
     long_description=open('README.rst').read(),
     zip_safe=False,
-    packages=['anarchy_theme', 'swift_domain'],
+    packages=['sphinx-theme-anfema', 'swift_domain'],
     package_data={
-        'anarchy_theme': [
+        'sphinx-theme-anfema': [
             'theme.conf',
             '*.html',
             'static/css/*.css'
@@ -28,7 +26,6 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'anarchysphinx=swift_domain.bootstrap:main',
         ],
     },
     include_package_data=True,

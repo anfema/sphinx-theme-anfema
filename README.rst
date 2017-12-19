@@ -1,11 +1,11 @@
 
 *********************************************
-AnarchyTools Sphinx Theme and Swift Extension
+anfema Sphinx Theme and Swift Extension
 *********************************************
 
 .. contents::
 
-This is a simplistic theme used for the AnarchyTools Swift documentation.
+This is the theme anfema sphinx theme.
 
 Installation
 ============

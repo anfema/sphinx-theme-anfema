@@ -1,6 +1,6 @@
 include *.txt
 include LICENSE
-recursive-include anarchy_theme *.conf
-recursive-include anarchy_theme *.css
-recursive-include anarchy_theme *.html
-recursive-include anarchy_theme *.js
+recursive-include sphinx-theme-anfema *.conf
+recursive-include sphinx-theme-anfema *.css
+recursive-include sphinx-theme-anfema *.html
+recursive-include sphinx-theme-anfema *.js
