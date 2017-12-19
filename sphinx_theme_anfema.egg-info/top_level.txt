@@ -1,0 +1,2 @@
+sphinx-theme-anfema
+swift_domain
