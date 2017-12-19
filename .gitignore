@@ -3,5 +3,6 @@ __pycache__
 anarchy_sphinx.egg-info
 build
 dist
+/node_modules
 *.sublime-workspace
 *.pyc
